@@ -1,0 +1,23 @@
+<header>
+    <h1>Magrathea</h1>
+    <p>{{ $.Site.Data.about.tagline }}</p>
+</header>
+
+<section>
+    <header>
+        <h2 id="heading-what-is-magrathea">
+            <a 
+                aria-label="Anchor link for: What is Magrathea?"
+                class="icon solid fa-link heading-anchor" 
+                href="#heading-what-is-magrathea">
+                What is Magrathea?
+            </a>
+        </h2>
+    </header>
+
+    <div class="content">
+        {{ range $.Site.Data.about.pitch }}
+            <p>{{ . | safeHTML }}</p>
+        {{ end }}
+    </div>
+</section>
