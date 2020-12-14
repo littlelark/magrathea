@@ -21,7 +21,10 @@
         {
             "label": "Hugo: Server with Drafts",
             "type": "shell",
-            "command": "hugo server --buildDrafts"
+            "command": "hugo server --buildDrafts",
+            "problemMatcher": [
+                "$go"
+            ]
         }
     ]
 }
