@@ -1,12 +1,10 @@
 module.exports = function(eleventyConfig) {
-    const dirInput = "src";
-
     // copy unprocessed, otherwise excluded items to output
-    eleventyConfig.addPassthroughCopy(`${dirInput}/CNAME`);
+    eleventyConfig.addPassthroughCopy("CNAME");
 
     return {        
         dir: {
-          input: dirInput,
+          input: "src",
           layouts: "_layouts",
           output: "docs"
         }
