@@ -4,7 +4,7 @@
 </header>
 
 <section>
-    {{ range $.Site.Data.about.pitch }}
+    {{ range .Site.Data.about.pitch }}
         <p>{{ . | safeHTML }}</p>
     {{ end }}
 </section>
