@@ -1,0 +1,32 @@
+{
+  "author": "Daine (https://daine.dev)",
+  "bugs": {
+    "url": "https://github.com/rp-magrathea/rp-magrathea.github.io/issues"
+  },
+  "description": "Website for Magrathea, an endeavor to provide free and open source resources for written RPG communities",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  },
+  "homepage": "https://github.com/rp-magrathea/rp-magrathea.github.io#readme",
+  "keywords": [
+    "writing",
+    "rpg",
+    "rp",
+    "forum",
+    "jcink",
+    "mybb",
+    "proboards"
+  ],
+  "license": "MIT",
+  "main": "index.html",
+  "name": "@rp-magrathea/magrathea",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rp-magrathea/rp-magrathea.github.io.git"
+  },
+  "scripts": {
+    "build": "rm -rf docs && npx @11ty/eleventy",
+    "dev": "npm run-script build -- --serve"
+  },
+  "version": "2.0.0"
+}
