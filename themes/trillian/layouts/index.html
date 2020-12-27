@@ -1,10 +1,10 @@
+{{ define "main" }}
 <header>
-    <h1>{{ $.Site.Title }}</h1>
-    <p>{{ $.Site.Data.about.tagline }}</p>
+    <h1>{{ .Site.Title }}</h1>
+    <p>{{ .Site.Data.meta.tagline }}</p>
 </header>
 
 <section>
-    {{ range .Site.Data.about.pitch }}
-        <p>{{ . | safeHTML }}</p>
-    {{ end }}
+    {{ .Content }}
 </section>
+{{ end }}
