@@ -1,6 +1,10 @@
 ---
 baseURL: https://magrathea.guide/
 languageCode: en-US
+pluralizeListTitles: false
 publishDir: docs
+taxonomies:
+    crew: crew
+    commission: commissions
 theme: trillian
 title: Magrathea
