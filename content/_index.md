@@ -4,7 +4,7 @@ Magrathea is meant to be one possible answer to that question. It’s a collecti
 
 ## What Does Magrathea Offer?
 
-So what does Magrathea offer? Broadly speaking, free, high quality, open source code. But that’s an extremely brief way to say a whole lot, so let’s break it down.
+So what does Magrathea offer? Broadly speaking, *high quality* code that is both *free and open source*. But that’s an extremely brief way to say a whole lot, so let’s break it down.
 
 ### Free And Open Source
 
