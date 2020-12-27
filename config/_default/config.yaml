@@ -1,0 +1,6 @@
+---
+baseURL: https://magrathea.guide/
+languageCode: en-US
+publishDir: docs
+theme: trillian
+title: Magrathea

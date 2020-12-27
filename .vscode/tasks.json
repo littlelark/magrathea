@@ -16,15 +16,10 @@
         {
             "label": "Hugo: Server",
             "type": "shell",
-            "command": "hugo server"
-        },
-        {
-            "label": "Hugo: Server with Drafts",
-            "type": "shell",
-            "command": "hugo server --buildDrafts",
+            "command": "hugo server",
             "problemMatcher": [
                 "$go"
             ]
-        }
+        },
     ]
 }
