@@ -7,4 +7,16 @@
 <section>
     {{ .Content }}
 </section>
+
+<section>
+    <h2>Pages</h2>
+
+    {{ .Site.Pages }}
+
+    <ul>
+        {{ range .Site.Pages }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a> ({{ .Kind }})</li>
+        {{ end }}
+    </ul>
+</section>
 {{ end }}
