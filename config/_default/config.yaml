@@ -3,6 +3,7 @@ baseURL: https://magrathea.guide/
 languageCode: en-US
 pluralizeListTitles: false
 publishDir: docs
+sectionPagesMenu: main
 taxonomies:
     crew: crew
     commission: commissions
