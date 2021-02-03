@@ -1,0 +1,21 @@
+<header style="background: pink;">
+    <p><a href="/">{{ .Site.Title }}</a></p>
+    <p>{{ .Site.Data.meta.tagline }}</p>
+
+    <nav>
+        {{ $currentPage := . }}
+        <ul>
+            {{ range .Site.Menus.main }}
+                <li>
+                    {{ if ($currentPage.IsMenuCurrent "main" .) }}
+                        <a class="active">{{ .Name }}</a>
+                    {{ else if ($currentPage.HasMenuCurrent "main" .) }}
+                        <a class="active" href="{{ .URL }}">{{ .Name }}</a>
+                    {{ else }}
+                        <a href="{{ .URL }}">{{ .Name }}</a>
+                    {{ end }}
+                </li>
+            {{ end }}
+        </ul>
+    </nav>    
+</header>
