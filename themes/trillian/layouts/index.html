@@ -1,22 +1,5 @@
 {{ define "main" }}
-<header>
-    <h1>{{ .Site.Title }}</h1>
-    <p>{{ .Site.Data.meta.tagline }}</p>
-</header>
-
-<section>
+<main>
     {{ .Content }}
-</section>
-
-<section>
-    <h2>Pages</h2>
-
-    {{ .Site.Pages }}
-
-    <ul>
-        {{ range .Site.Pages }}
-            <li><a href="{{ .Permalink }}">{{ .Title }}</a> ({{ .Kind }})</li>
-        {{ end }}
-    </ul>
-</section>
+</main>
 {{ end }}
