@@ -2,8 +2,9 @@
 title: "F.A.Q."
 date: 2021-01-12T14:34:44-07:00
 draft: true
+menu: main
 ---
-# F.A.Q.
+# Frequently Asked Questions
 
 Why don't you provide graphics in custom commissions?
 :   Graphics manipulation is not a Magrathea specialty. Offering _high quality_ resources is an important part of Magrathea for us and, since graphics really aren't in our wheelhouse, this isn't an area where we can confidently meet the standard we've set.
