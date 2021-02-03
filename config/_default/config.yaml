@@ -7,5 +7,6 @@ sectionPagesMenu: main
 taxonomies:
     crew: crew
     commission: commissions
+    project: projects
 theme: trillian
 title: Magrathea

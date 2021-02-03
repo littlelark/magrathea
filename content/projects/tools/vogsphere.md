@@ -2,6 +2,7 @@
 title: "Vogsphere"
 date: 2021-01-11T21:23:24-07:00
 draft: true
+projects: Tool
 ---
 # Vogsphere
 ## The Claim Code Generator
